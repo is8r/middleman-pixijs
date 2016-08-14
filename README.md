@@ -3,3 +3,10 @@
 middleman+pixijsの落書き用プロジェクトテンプレート
 
 [https://is8r.github.io/middleman-pixijs/](https://is8r.github.io/middleman-pixijs/)
+
+
+deploy gh-pages:
+
+```
+$ rake build && rake publish
+```
