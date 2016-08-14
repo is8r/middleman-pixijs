@@ -41,9 +41,10 @@ var SpuitPixi = function(id) {
 
   // update
   function update(){
-    requestAnimationFrame(update);
     if(private['tick']) private['tick'].call();
+
     private['renderer'].render(private['stage']);
+    requestAnimationFrame(update);
   }
   update();
 
